@@ -1,5 +1,3 @@
-package DatosPersona;
-
 public class Persona
 {
     private String pNombreApellido;
