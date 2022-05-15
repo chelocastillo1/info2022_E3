@@ -1,3 +1,4 @@
+package Java.otros;
 import java.util.Scanner;
 
 public class Potencia
