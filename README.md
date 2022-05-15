@@ -1,2 +1,3 @@
-# info2022_E3
-Informatorio2022_E3
+# INFORMATORIO 2022 - ETAPA 3
+Castillo, Marcelo
+chelocastillo1@hotmail.com
