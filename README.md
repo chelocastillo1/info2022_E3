@@ -1,4 +1,4 @@
 # INFORMATORIO 2022 - ETAPA 3 (Java / React)
-Castillo, Marcelo
+Castillo, H. Marcelo
 
 chelocastillo1@hotmail.com
