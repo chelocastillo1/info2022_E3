@@ -1,5 +1,3 @@
-package ejercicio04;
-
 public class Persona
 {
     private String pApellido;

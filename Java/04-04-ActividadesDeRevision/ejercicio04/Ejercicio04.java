@@ -1,5 +1,3 @@
-package ejercicio04;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -8,10 +6,11 @@ import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Scanner;
+import Alumno;
 
 public class Ejercicio04
 {
-    static Collection<Alumno> coleccion;
+    private static Collection<Alumno> coleccion;
 
     public static void main(String[] args)
     {
@@ -58,7 +57,7 @@ public class Ejercicio04
         coleccion.clear();
     }
 
-    public static void alumnoListado()
+    protected static void alumnoListado()
     {
         System.out.println("Listado de alumnos:");
         if(!coleccion.isEmpty())

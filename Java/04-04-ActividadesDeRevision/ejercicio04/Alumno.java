@@ -1,5 +1,3 @@
-package ejercicio04;
-
 public class Alumno extends Persona
 {
     private int pGrado;
