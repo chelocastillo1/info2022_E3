@@ -1,7 +1,0 @@
-Pedro;Perez
-Sebastián;Sosa
-Amalia;Aguirre
-Carlos;Cáceres
-Maria;Montenegro
-Zenaida;Zabaleta
-Teresa;Tirantino
