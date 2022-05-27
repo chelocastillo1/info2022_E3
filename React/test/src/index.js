@@ -2,13 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import HolaMundo from './components/HolaMundo';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Eventos from './components/Eventos';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HolaMundo />
+    <Header />
+    <Eventos />
+    <Footer />
   </React.StrictMode>
 );
 

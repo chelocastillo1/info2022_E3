@@ -1,6 +1,6 @@
 package Java.A07_02_EjerciciosComplemetarios.Level02.E06_ColeccionEmpleados;
 
-import Java.A99_99_Clases.Persona;
+import Java.A99_99_Extras.Persona;
 
 public class Empleado extends Persona
 {

@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Scanner;
 
-import Java.A99_99_Clases.Alumno;
+import Java.A99_99_Extras.Alumno;
 
 public class ejercicio04
 {

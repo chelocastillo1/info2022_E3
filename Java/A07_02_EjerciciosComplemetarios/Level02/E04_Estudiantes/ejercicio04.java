@@ -3,7 +3,7 @@ package Java.A07_02_EjerciciosComplemetarios.Level02.E04_Estudiantes;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import Java.A99_99_Clases.Alumno;
+import Java.A99_99_Extras.Alumno;
 
 public class ejercicio04
 {
