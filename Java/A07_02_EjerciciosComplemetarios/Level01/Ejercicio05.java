@@ -1,7 +1,10 @@
-package Java.A07_02_EjerciciosComplemetarios.Level01.E05_Multiplicacion;
+package Java.A07_02_EjerciciosComplemetarios.Level01;
 import java.util.Scanner;
 
-public class ejercicio05
+/**
+ * Ejercicio 05: Multiplicación
+ */
+public class Ejercicio05
 {
     private static int[] operador = {0, 0};
 

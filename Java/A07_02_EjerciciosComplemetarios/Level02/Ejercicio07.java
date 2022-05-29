@@ -1,8 +1,11 @@
-package Java.A07_02_EjerciciosComplemetarios.Level02.E07_FizzBuzz;
+package Java.A07_02_EjerciciosComplemetarios.Level02;
 
 import java.util.Scanner;
 
-public class ejercicio07
+/**
+ * Ejercicio 07: FizzBuzz
+ */
+public class Ejercicio07
 {
     private static Scanner scan;
     

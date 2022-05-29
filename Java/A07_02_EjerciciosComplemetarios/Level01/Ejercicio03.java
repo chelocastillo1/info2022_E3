@@ -1,7 +1,10 @@
-package Java.A07_02_EjerciciosComplemetarios.Level01.E03_SecuenaNumerica;
+package Java.A07_02_EjerciciosComplemetarios.Level01;
 import java.util.Scanner;
 
-public class ejercicio03
+/**
+ * Ejercicio 03: Secuencia numérica
+ */
+public class Ejercicio03
 {
     private static int pNumero;
 

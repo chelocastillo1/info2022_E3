@@ -1,7 +1,10 @@
-package Java.A07_02_EjerciciosComplemetarios.Level01.E01_NombreUsuario;
+package Java.A07_02_EjerciciosComplemetarios.Level01;
 import java.util.Scanner;
 
-public class ejercicio01
+/**
+ * Ejercicio 01: Nombre de usuario
+ */
+public class Ejercicio01
 {
     private static String userName;
 

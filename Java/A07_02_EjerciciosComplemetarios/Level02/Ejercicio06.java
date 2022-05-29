@@ -1,10 +1,13 @@
-package Java.A07_02_EjerciciosComplemetarios.Level02.E06_ColeccionEmpleados;
+package Java.A07_02_EjerciciosComplemetarios.Level02;
 
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 
-public class ejercicio06
+/**
+ * Ejercicio 06: Coleccion de empleados
+ */
+public class Ejercicio06
 {
     private static HashSet<Empleado> empleados;
     private static Map<Integer, Integer> salarios;

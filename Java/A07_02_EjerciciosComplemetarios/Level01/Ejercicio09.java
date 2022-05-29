@@ -1,7 +1,10 @@
-package Java.A07_02_EjerciciosComplemetarios.Level01.E09_ContarLetras;
+package Java.A07_02_EjerciciosComplemetarios.Level01;
 import java.util.Scanner;
 
-public class ejercicio09
+/**
+ * Ejercicio 09: Contar letras
+ */
+public class Ejercicio09
 {   
     public static void main(String[] args)
     {

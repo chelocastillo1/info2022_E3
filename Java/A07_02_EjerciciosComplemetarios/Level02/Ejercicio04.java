@@ -1,11 +1,14 @@
-package Java.A07_02_EjerciciosComplemetarios.Level02.E04_Estudiantes;
+package Java.A07_02_EjerciciosComplemetarios.Level02;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
 import Java.A99_99_Extras.Alumno;
 
-public class ejercicio04
+/**
+ * Ejercicio 04: Estudiantes
+ */
+public class Ejercicio04
 {
     private static Scanner scan;
     private static ArrayList<Alumno> lista, gp1, gp2, gp3;

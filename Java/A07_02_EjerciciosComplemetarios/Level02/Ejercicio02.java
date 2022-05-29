@@ -1,7 +1,10 @@
-package Java.A07_02_EjerciciosComplemetarios.Level02.E02_ArrayList;
+package Java.A07_02_EjerciciosComplemetarios.Level02;
 import java.util.ArrayList;
 
-public class ejercicio02
+/**
+ * Ejercicio 02: ArrayList
+ */
+public class Ejercicio02
 {
     public static void main(String[] args)
     {

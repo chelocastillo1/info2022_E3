@@ -1,7 +1,10 @@
-package Java.A07_02_EjerciciosComplemetarios.Level01.E02_Matematicas;
+package Java.A07_02_EjerciciosComplemetarios.Level01;
 import java.util.Scanner;
 
-public class ejercicio02
+/**
+ * Ejercicio 02: Matemáticas
+ */
+public class Ejercicio02
 {
     private static int[] operador = {0, 0};
 

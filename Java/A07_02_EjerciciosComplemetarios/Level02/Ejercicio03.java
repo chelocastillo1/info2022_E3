@@ -1,9 +1,12 @@
-package Java.A07_02_EjerciciosComplemetarios.Level02.E03_BarajaFrancesa;
+package Java.A07_02_EjerciciosComplemetarios.Level02;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class ejercicio03
+/**
+ * Ejercicio 03: Baraja francesa
+ */
+public class Ejercicio03
 {
     public static void main(String[] args)
     {

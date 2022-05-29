@@ -1,8 +1,11 @@
-package Java.A07_02_EjerciciosComplemetarios.Level02.E05_SalarioSemanal;
+package Java.A07_02_EjerciciosComplemetarios.Level02;
 
 import java.util.ArrayList;
 
-public class ejercicio05
+/**
+ * Ejercicio 06: Salario semanal
+ */
+public class Ejercicio05
 {
     public static void main(String[] args)
     {

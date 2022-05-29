@@ -1,8 +1,11 @@
-package Java.A07_02_EjerciciosComplemetarios.Level01.E08_DatosPersona;
+package Java.A07_02_EjerciciosComplemetarios.Level01;
 
 import java.util.Scanner;
 
-public class ejercicio08
+/**
+ * Ejercicio 08: Datos de personas
+ */
+public class Ejercicio08
 {
     public static void main(String[] args)
     {

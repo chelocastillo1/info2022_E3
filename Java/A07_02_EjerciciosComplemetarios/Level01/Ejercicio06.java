@@ -1,7 +1,10 @@
-package Java.A07_02_EjerciciosComplemetarios.Level01.E06_Potencia;
+package Java.A07_02_EjerciciosComplemetarios.Level01;
 import java.util.Scanner;
 
-public class ejercicio06
+/**
+ * Ejercicio 06: Potenciación
+ */
+public class Ejercicio06
 {
     private static int[] operador = {0, 0};
 

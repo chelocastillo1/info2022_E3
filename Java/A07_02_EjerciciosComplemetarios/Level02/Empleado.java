@@ -1,4 +1,4 @@
-package Java.A07_02_EjerciciosComplemetarios.Level02.E06_ColeccionEmpleados;
+package Java.A07_02_EjerciciosComplemetarios.Level02;
 
 import Java.A99_99_Extras.Persona;
 

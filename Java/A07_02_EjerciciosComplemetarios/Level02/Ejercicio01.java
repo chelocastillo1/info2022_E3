@@ -1,8 +1,11 @@
-package Java.A07_02_EjerciciosComplemetarios.Level02.E01_RankingCiudades;
+package Java.A07_02_EjerciciosComplemetarios.Level02;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ejercicio01
+/**
+ * Ejercicio 01: Ranking de ciudades
+ */
+public class Ejercicio01
 {
     private static Scanner scan;
     private static ArrayList<String> pCiudades = new ArrayList<String>();
