@@ -5,5 +5,11 @@ package Java.A07_02_EjerciciosComplemetarios.Level01;
  */
 public class Ejercicio07
 {
-    // (grillo) cri cri... cri cri...
+    public static void main(String[] args)
+    {
+        String aux = "informatorio";
+
+        System.out.println(String.format("Mayusculas: %S", aux));
+    }
+
 }
