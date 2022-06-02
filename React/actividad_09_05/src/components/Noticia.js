@@ -1,21 +1,19 @@
-import React, {Component} from 'react'
+//import React from 'react'
 
-class Noticia extends Component
+function Noticia()
 {
     const nota = {
         titulo: "React 2022",
         descripcion: "Informatorio Chaco",
     };
 
-    const [titulo, descripcion, ] = nota;
+    const {titulo, descripcion, } = nota;
 
-    render(){
-        return (
-            <header className="header">
-                <h1>{titulo}</h1>
-            </header>
-            );
-    }
+    return (
+        <header className="header">
+            <h1>{titulo}</h1>
+        </header>
+        )
 }
 
 export default Noticia;
