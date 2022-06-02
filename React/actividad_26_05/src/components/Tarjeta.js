@@ -22,18 +22,16 @@ class Tarjeta extends Component
 
     render(){
         return (
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+            <Card className="h-100">
+                <Card.Img variant="top" src="holder.js/100px180" style={{ maxHeight: 320 }} />
                 <Card.Body>
                     <Card.Title>{this.getTitle()}</Card.Title>
-                    <Card.Text>
-                        {this.getText()}
-                    </Card.Text>
+                    <Card.Text>{this.getText()}</Card.Text>
                     <Button variant="primary">More info</Button>
                 </Card.Body>
             </Card>
             );
     }
 }
-
+//<Card style={{ width: '18rem' }}>
 export default Tarjeta;

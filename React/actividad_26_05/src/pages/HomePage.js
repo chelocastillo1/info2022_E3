@@ -10,19 +10,17 @@ class HomePage extends Component {
 
     render(){
         return (
-            <Container>
-                <CardGroup>
-                    <Row>
-                    { this.courses.map(course => 
-                            <Col sm>
-                                <Tarjeta key={course.key} title={course.title} text={course.text} img={course.pathImg} />
-                            </Col>
-                        )
-                    }
-                    </Row>
-                </CardGroup>
-            </Container>
+            <Row className="row-cols-1 row-cols-md-3 g-4">
+            { this.courses.map(course => 
+                    <Col>
+                        <Tarjeta key={course.key} title={course.title} text={course.text} img={course.pathImg} />
+                    </Col>
+                )
+            }
+            </Row>
           );
     }
 }
+
+//<CardGroup className="container d-flex justify-content-center align-items-center mt-5">s
 export default HomePage;

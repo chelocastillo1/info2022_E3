@@ -5,9 +5,9 @@ class Footer extends Component
 {
     render(){
         return (
-            <Container fluid>
-                <Row>
-                    <Col>© Footer Copyright</Col>
+            <Container>
+                <Row className="h-100 pt-4">
+                    <Col className="w-100 text-center">© Footer Copyright</Col>
                 </Row>
             </Container>
             )
