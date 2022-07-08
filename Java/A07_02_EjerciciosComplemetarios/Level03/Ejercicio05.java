@@ -2,6 +2,7 @@ package Java.A07_02_EjerciciosComplemetarios.Level03;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.Map;
@@ -49,27 +50,36 @@ public class Ejercicio05
      */
     protected static void cargarListaAlumnosAleatorios(List<Alumno> aux)
     {
-        /// Vectores para cargar nombre/apellidos aleatoriamente.
-        final String vNombre[] = {"Ariel", "Ana", "Carlos", "Carla", "Felipe", "Florencia", "Gonzalo", "Gabriela", "Juan", "Jimena", "Pedro", "Patricia"};
-        final String vApellido[] = {"Perez", "Gonzalez", "Tevez", "Floridia", "Gomez", "Paez", "Castillo", "Caceres", "Garcia", "Gimenez", "Diaz", "Ruiz"};
-        
-        String strAlumno[] = {"", ""}; // Apellido y nombre, aleatorios
-        int[] nFecha = {0, 0, 0}; // año/mes/día, aleatorios
-
-        for(int i = 0; i < 10; i++)
-        {
-            strAlumno[0] = vApellido[(int)(Math.random() * 12 + 1) - 1]; // Aleatorización para el apellido
-            strAlumno[1] = vNombre[(int)(Math.random() * 12 + 1) - 1]; // Aleatorización para el nombre
-
-            // Aleatorización para la fecha de nacimiento...
-            nFecha[0] = 1986 + ((int)(Math.random() * 18 + 1)); // AÑO: del 1986 al 2004
-            //nFecha[0] = getNumeroAleatorio(2016, 2022); // AÑO: del 2004 al 2022 (No me está dando resultado... :S)
-            nFecha[1] = (int)(Math.random() * 12 + 1); // MES: del 1 al 12
-            nFecha[2] = (int)(Math.random() * getDiasDelMes(nFecha[0], nFecha[1]) + 1); // DÍA: del 1 al N (según función getDiasDelMes())
-
-            aux.add(new Alumno(strAlumno[0], strAlumno[1], LocalDate.of(nFecha[0], nFecha[1], nFecha[2])));
-        }
+        aux.add(new Alumno("Ariel", "Perez", LocalDate.of(1986, 9, 12)));
+        aux.add(new Alumno("Ana", "Gonzalez", LocalDate.of(1994, 1, 14)));
+        aux.add(new Alumno("Carlos", "Tevez", LocalDate.of(1989, 7, 11)));
+        aux.add(new Alumno("Carla", "Floridia", LocalDate.of(1998, 4, 1)));
+        aux.add(new Alumno("Felipe", "Gomez", LocalDate.of(2000, 11, 30)));
+        aux.add(new Alumno("Florencia", "Paez", LocalDate.of(1989, 1, 14)));
+        aux.add(new Alumno("Gonzalo", "Castillo", LocalDate.of(1992, 3, 22)));
+        aux.add(new Alumno("Gbariela", "Caceres", LocalDate.of(1995, 7, 2)));
+        aux.add(new Alumno("Juan", "Garcia", LocalDate.of(1999, 10, 18)));
     }
+    // protected static void cargarListaAlumnosAleatorios(List<Alumno> aux)
+    // {
+    //     // Vectores para cargar nombre/apellidos aleatoriamente.
+    //     final String vNombre[] = {"Ariel", "Ana", "Carlos", "Carla", "Felipe", "Florencia", "Gonzalo", "Gabriela", "Juan", "Jimena", "Pedro", "Patricia"};
+    //     final String vApellido[] = {"Perez", "Gonzalez", "Tevez", "Floridia", "Gomez", "Paez", "Castillo", "Caceres", "Garcia", "Gimenez", "Diaz", "Ruiz"};
+
+    //     for(int i = 0; i < 10; i++)
+    //     {
+    //         strAlumno[0] = vApellido[(int)(Math.random() * 12 + 1) - 1]; // Aleatorización para el apellido
+    //         strAlumno[1] = vNombre[(int)(Math.random() * 12 + 1) - 1]; // Aleatorización para el nombre
+
+    //         // Aleatorización para la fecha de nacimiento...
+    //         nFecha[0] = 1986 + ((int)(Math.random() * 18 + 1)); // AÑO: del 1986 al 2004
+    //         //nFecha[0] = getNumeroAleatorio(2016, 2022); // AÑO: del 2004 al 2022 (No me está dando resultado... :S)
+    //         nFecha[1] = (int)(Math.random() * 12 + 1); // MES: del 1 al 12
+    //         nFecha[2] = (int)(Math.random() * getDiasDelMes(nFecha[0], nFecha[1]) + 1); // DÍA: del 1 al N (según función getDiasDelMes())
+
+    //         aux.add(new Alumno(strAlumno[0], strAlumno[1], LocalDate.of(nFecha[0], nFecha[1], nFecha[2])));
+    //     }
+    // }
 
     /**
      * Permite obtener la cantidad de días para determinado mes del año.
@@ -109,9 +119,9 @@ public class Ejercicio05
     }
 
     /**
-     * Si el año es bisiesto, febrero tiene 29 días
+     * Determina si el año ingresado es bisiesto, de ser así, febrero tiene 29 días
      * @param n Año
-     * @return
+     * @return Devuelve verdadero si el año ingresado es bisiesto
      */
     protected static boolean esBisiesto(int n)
     {

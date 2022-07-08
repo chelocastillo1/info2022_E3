@@ -16,7 +16,7 @@ public class Ejercicio04
 
         List<Integer> listaFiltrada = listaCompleta.stream()
                     .distinct() // Retorna una coleccion de elemento no repetidos en el stream.
-                    .map(x -> factorizar(x)) // Mapeo y aplico el factorial a cada elemento.
+                    .map(x -> factorial(x)) // Mapeo y aplico el factorial a cada elemento.
                     .collect(Collectors.toList()); // Retorno una lista con los resultados.
         
         if(listaFiltrada.size() > 0)
@@ -26,14 +26,14 @@ public class Ejercicio04
     }
 
     /**
-     * Permite obtener el factoria de n!
-     * @param n Número natural a factorizar, al ser natural no se pueden calcular negativos.
-     * @return Devuelve un número natural que representa el resultado de factorizar n1
+     * Permite obtener el factorial de n!
+     * @param n1 Número natural a operar, al ser natural no se pueden calcular negativos.
+     * @return Devuelve un número natural que representa el resultado del factorial de n1
      */
-    protected static int factorizar(int n)
+    protected static int factorial(int n1)
     {
-        if(n > 0)
-            return factorizar(n - 1) * n;
+        if(n1 > 0)
+            return factorial(n1 - 1) * n1;
         
         return 1;
     }
